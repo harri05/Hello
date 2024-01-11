@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CatPhotoApp</h1>
+    <h2>CatPhotos</h2>
+    See more <a href="https://www.bing.com/images/search?q=cat+photos&form=HDRSC3&first=1">cat photos</a> in our gallery <br><br>
+    <img src="/pexels-alex-umbelino-19028585.jpg" width="300" height="300" >
+    <h2>Cat Lists</h2>
+    <h3>Things cats love:</h3>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+    <img src="/pexels-alex-umbelino-19028585.jpg" width="300" height="300" ><figcaption>Cat <i>love</i> lasagna</figcaption>
+    <h3>Top 3 things cats hate:</h3>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <img src="/pexels-alex-umbelino-19028585.jpg" width="300" height="300" ><figcaption>Cats <b>hate</b> other cat</figcaption>
+    <h2>Cat Form</h2>
+    <form action="/submit_cat_photo">
+        <legend><label for="name">Is your cat an indoor or outdoor cat? <br><br>
+            <input type="radio" class="form-check-input" value="checkedValue" checked>
+            Indoor
+            <input type="radio" class="form-check-input">
+            Outdoor
+        </label><br><br></legend>
+       
+        <label for="breed">What's your cat's personality?<br><br>
+            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+            Loving
+            <input type="checkbox" class="form-check-input">
+            Lazy
+            <input type="checkbox" class="form-check-input">
+            Energy
+        </label><br><br>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required="">
+        <button type="submit">Submit</button>
+</form>
+<p>
+    No Copyright <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+</p>
+</body>
+</html>
